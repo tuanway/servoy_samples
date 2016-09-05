@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/sample_data/tree_nodes",
+items:[
+{foreignColumnName:"level_id",primaryDataProviderID:"id",typeid:23,uuid:"571A866C-F0C2-48FC-A9C5-C7650E184E3B"}
+],
+joinType:1,
+name:"tree_nodes_to_tree_nodes$level_id",
+primaryDataSource:"db:/sample_data/tree_nodes",
+typeid:22,
+uuid:"31FE70BE-1C49-4215-93B0-F4F260495BAD"

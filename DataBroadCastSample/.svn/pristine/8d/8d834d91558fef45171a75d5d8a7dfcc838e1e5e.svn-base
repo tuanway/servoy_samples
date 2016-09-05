@@ -1,0 +1,15 @@
+customProperties:"referenceForm:false",
+encapsulation:60,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"A1357EED-CF9A-448B-B20D-64316FEF964F"
+}
+],
+name:"base",
+navigatorID:"-1",
+showInMenu:true,
+typeid:3,
+uuid:"0AB7EF98-3033-477A-A525-3CDFEDED41FF"

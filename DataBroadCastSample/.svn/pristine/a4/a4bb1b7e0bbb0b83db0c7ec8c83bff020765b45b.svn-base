@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/example_data/notifications",
+items:[
+{foreignColumnName:"user_id",primaryDataProviderID:"user_id",typeid:23,uuid:"B323C8EF-1BA3-42AC-BC8B-1D02E00CC446"}
+],
+joinType:1,
+name:"user_to_notification$user_id",
+primaryDataSource:"db:/example_data/users",
+typeid:22,
+uuid:"BC6D0853-4D0F-449E-A9F2-C7AB1AEE118E"

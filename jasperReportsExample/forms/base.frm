@@ -1,0 +1,14 @@
+encapsulation:60,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"537709ED-36E1-4EFD-90AD-93838C209AE6"
+}
+],
+name:"base",
+navigatorID:"-1",
+showInMenu:true,
+typeid:3,
+uuid:"FC68DA66-FC8A-4258-B772-6D871ECD7FC6"

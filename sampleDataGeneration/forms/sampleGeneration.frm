@@ -1,0 +1,33 @@
+customProperties:"referenceForm:false",
+encapsulation:60,
+extendsID:"605CA2AA-37F7-4685-A946-78D39CDC8AA8",
+items:[
+{
+extendsID:"C0717698-0CDE-40B3-8FB2-9769BDBB4252",
+height:480,
+typeid:19,
+uuid:"1B811771-1F2A-435E-ACA6-76DCACBA0486"
+},
+{
+location:"10,41",
+onActionMethodID:"CC5BCB9C-50D2-4BC6-BA46-89E6AEA20E84",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+size:"184,20",
+text:"Generate Persons Data",
+typeid:7,
+uuid:"1D7C54CD-59E4-4E8E-99F0-FE2FA956804B"
+},
+{
+location:"10,10",
+size:"184,20",
+text:"Sample Data Generation",
+transparent:true,
+typeid:7,
+uuid:"49082B9D-ACAD-4605-A3B0-AEC11731A3B1"
+}
+],
+name:"sampleGeneration",
+showInMenu:true,
+typeid:3,
+uuid:"D35A4C7D-114D-43AA-842C-912B0C3C5103"
