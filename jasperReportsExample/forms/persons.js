@@ -10,20 +10,7 @@ function onAction$report(event) {
 	// grab first report
 	var report = result[0]
 	//get foundset from a contacts table form
-	var fs = forms.contacts_table.getFs()
+	var fs = forms.persons_table.getFs()
 	
 	plugins.jasperPluginRMI.runReport(fs,report,null,plugins.jasperPluginRMI.OUTPUT_FORMAT.VIEW,{total:fs.getSize().toString()})
-}
-
-/**
- * Perform the element default action.
- *
- * @param {JSEvent} event the event that triggered the action
- *
- * @private
- *
- * @properties={typeid:24,uuid:"DC5DA62D-5D55-4FA0-A762-796774F0CCB2"}
- */
-function onAction$save(event) {
-	databaseManager.saveData();
 }
