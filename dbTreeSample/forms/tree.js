@@ -128,11 +128,12 @@ function recreateUI(ns,exp) {
  */
 function resetData(){
 	//remove and reset component
-	var c = solutionModel.getForm(controller.getName()).getComponent('dbtree');
-	var f = solutionModel.getForm(controller.getName());
-	f.removeComponent('dbtree');
-	f.newWebComponent(c.name,'servoyextra-treeview',c.x,c.y,c.width,c.height);
-	controller.recreateUI();
-	//get all data from foundset and add back to component.
-	onShow(null, null);
+//	var c = solutionModel.getForm(controller.getName()).getComponent('dbtree');
+//	var f = solutionModel.getForm(controller.getName());
+//	f.removeComponent('dbtree');
+//	var nc = f.newWebComponent(c.name,'servoyextra-treeview',c.x,c.y,c.width,c.height);
+//	nc.setHandler('onNodeClicked', f.getMethod('onAction$getInfo'));
+//	controller.recreateUI();
+//	//get all data from foundset and add back to component.
+//	onShow(null, null);
 }

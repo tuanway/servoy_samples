@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: httpservices
+Bundle-Name: httpservices
+Package-Type: Web-Service
+
+Name: httpservices/httpservices.spec
+Web-Service: True
+
