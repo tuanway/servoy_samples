@@ -1,0 +1,23 @@
+customProperties:"methods:{\
+onHideMethodID:{\
+arguments:null,\
+parameters:null\
+}\
+},\
+referenceForm:false",
+extendsID:"605CA2AA-37F7-4685-A946-78D39CDC8AA8",
+items:[
+{
+location:"206,175",
+onActionMethodID:"954A9D62-54E3-4E70-B317-C1408263BC68",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+text:"Close ME",
+typeid:7,
+uuid:"0C6B9916-4454-442D-BBEC-765633F6EC11"
+}
+],
+name:"popup",
+onHideMethodID:"AF2D9B35-70A2-44BC-8B6B-ADFE79AED740",
+typeid:3,
+uuid:"800AB822-D7C5-4763-BC0F-C08AE026F63B"
