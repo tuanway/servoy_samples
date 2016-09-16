@@ -13,18 +13,27 @@ function initTreeView() {
 		var fs = datasources.db.sample_data.tree_nodes.getFoundSet();		
 
 		var ds = fs.getDataSource();
-		
+
 		//add datasource to dbtree
 		elements.dbtree.addRoots(ds);
 		
 		//setup level relationship
 		elements.dbtree.setNRelationName(ds, 'tree_nodes_to_tree_nodes$level_id');
+		
+		//add icons
+		elements.dbtree.setImageURLDataprovider(ds,'image')
 
 		//set the name of dataprovider to use for text display on a node
 		elements.dbtree.setTextDataprovider(ds, 'title_text');
 
 		//set the method to call and dataprovider value to pass when node clicked
-		elements.dbtree.setCallBackInfo(ds, node_selected,'id');
+		elements.dbtree.setCallBackInfo(ds, node_selected,'id');	
+		
+		//setup checkbox for each node
+		elements.dbtree.setCheckBoxValueDataprovider(ds,'selected');	
+		
+		//set method to call and dataprovider value to pass when node clicked.
+		elements.dbtree.setMethodToCallOnCheckBoxChange(ds,node_selected,'id');
 		
 		//expand levels 1-3 of tree
 		var pathAr = new Array(1, 2, 3);
@@ -66,5 +75,5 @@ function refreshTreeView() {
 	fs.search();
 
 	//set the root node(s) and set the name of dataprovider to use for text display on a node
-	elements.dbtree.addRoots(fs);
+	elements.dbtree.addRoots(fs);	
 }
