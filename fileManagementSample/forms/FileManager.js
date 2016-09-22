@@ -28,19 +28,10 @@ function uploadCallBack(fileArr) {
 function streamCallback(i) {
 	//after saving file from disk, get data bytesfor storage in db
 	var fileBytes = i.getBytes();
-	var byteArr = []	
-	for (var j = 0; j < fileBytes.length; j++) {
-		byteArr.push(fileBytes[j]);
-	}
-	
-	//convert byte array to string
-	var blobStr = plugins.serialize.toJSON(byteArr);
-
 	var fs = datasources.db.sample_data.files.getFoundSet();
 	//save file into database table in data.
 	fs.newRecord();
-	fs.data = blobStr;
+	fs.data = fileBytes;
 	fs.name = i.getName();
 	databaseManager.saveData(fs);
-	
 }
