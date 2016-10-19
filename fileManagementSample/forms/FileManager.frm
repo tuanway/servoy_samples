@@ -14,7 +14,7 @@ uuid:"BE642AB1-6973-4E80-817E-E0CD24B62DEE"
 location:"15,32",
 name:"tabs",
 printable:false,
-size:"541,308",
+size:"615,394",
 transparent:true,
 typeid:16,
 uuid:"1E92AE6F-6DBB-49AC-8259-BC3B63BE3768"
@@ -28,7 +28,7 @@ typeid:7,
 uuid:"769B0E32-5718-4F51-98D4-FCC04AB535B9"
 },
 {
-location:"10,350",
+location:"10,441",
 onActionMethodID:"F6EEFB65-F590-495E-8937-AEB2EA13C89E",
 onDoubleClickMethodID:"-1",
 onRightClickMethodID:"-1",
