@@ -11,6 +11,9 @@ function onAction$report(event) {
 	var report = result[0]
 	//get foundset from a contacts table form
 	var fs = forms.persons_table.getFs()
+	var params = { total: fs.getSize().toString(), imgPath: 'media:///servoy.png' };
+	plugins.jasperPluginRMI.runReport(fs, report, null, plugins.jasperPluginRMI.OUTPUT_FORMAT.VIEW, params)
+		
+	application.output(Packages.org.eclipse.core.runtime.Platform.getLocation())
 	
-	plugins.jasperPluginRMI.runReport(fs,report,null,plugins.jasperPluginRMI.OUTPUT_FORMAT.VIEW,{total:fs.getSize().toString()})
 }

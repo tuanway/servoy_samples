@@ -2,7 +2,7 @@ customProperties:"referenceForm:false",
 extendsID:"FC68DA66-FC8A-4258-B772-6D871ECD7FC6",
 items:[
 {
-fontType:"Lucida Grande,0,24",
+fontType:"Futura-Medium,2,24,Futura",
 location:"5,15",
 size:"606,66",
 text:"PERSONS",

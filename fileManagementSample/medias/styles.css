@@ -1,0 +1,11 @@
+.servoy {
+	background-image: url(servoy.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+}
+
+.cardback {
+	background-image: url(cardback.gif);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+}

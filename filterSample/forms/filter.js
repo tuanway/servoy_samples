@@ -73,3 +73,12 @@ function onAction$createTableFilter(event) {
 	//reload all records - and our filter goes into effect
 	fs.loadAllRecords();
 }
+
+
+/**
+ * @properties={typeid:24,uuid:"FA8CACCB-88CE-4C28-8069-375DC3AE460B"}
+ */
+function test() {
+	foundset.newRecord();
+	foundset.getSelectedRecord().revertChanges()	
+}

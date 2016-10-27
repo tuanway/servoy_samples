@@ -22,7 +22,7 @@ typeid:47,
 uuid:"0F54A361-97FA-4664-8FB8-5185A4A84001"
 },
 {
-location:"47,158",
+location:"24,158",
 onActionMethodID:"0D4E08CE-315B-42C3-962A-019F7D7C1A4A",
 onDoubleClickMethodID:"-1",
 onRightClickMethodID:"-1",
