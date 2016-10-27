@@ -18,7 +18,7 @@ function onAction$upload(event) {
  */
 function streamCallback(fileArr) {
 	for (var i = 0; i < fileArr.length; i++) {
-		//after saving file from disk, get data bytesfor storage in db
+		//after saving file from disk, get data bytes for storage in db
 		var fileBytes = fileArr[i].getBytes();
 		var fs = datasources.db.sample_data.files.getFoundSet();
 		//save file into database table in data.
