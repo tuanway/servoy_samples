@@ -1,2 +1,2 @@
 # servoy_samples
-Sample solutions for Servoy
+Sample solutions for the Servoy platform.
